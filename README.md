@@ -1,1 +1,1 @@
-not a complete implementation at all. this is just used in personal projects so far. test.
+not a complete implementation at all. so far this is only used in private projects.
