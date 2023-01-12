@@ -24,5 +24,6 @@ void glmc_vec3_multiply(t_vec3 *p_vec3_a, float s, t_vec3 *p_vec3_target);
 void glmc_vec3_divide(t_vec3 *p_vec3_a, float s, t_vec3 *p_vec3_target);
 float glmc_vec3_norm(t_vec3 *p_vec3);
 void glmc_vec3_print(t_vec3 *p_vec3);
+void glmc_vec3_destroy(t_vec3 *p_vec3);
 
 #endif // VEC3_H

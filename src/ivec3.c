@@ -76,3 +76,7 @@ void glmc_ivec3_print(t_ivec3 *p_ivec3) {
     printf("(%d, %d, %d)\n", p_ivec3->x, p_ivec3->y, p_ivec3->z);
 }
 
+void glmc_ivec3_destroy(t_ivec3 *p_ivec3) {
+    free(p_ivec3->front);
+}
+

@@ -70,4 +70,7 @@ void glmc_ivec2_print(t_ivec2 *p_ivec2) {
     printf("(%d, %d)\n", p_ivec2->x, p_ivec2->y);
 }
 
+void glmc_ivec2_destroy(t_ivec2 *p_ivec2) {
+    free(p_ivec2->front);
+}
 

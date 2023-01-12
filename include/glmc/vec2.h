@@ -23,5 +23,6 @@ void glmc_vec2_multiply(t_vec2 *p_vec2_a, float s, t_vec2 *p_vec2_target);
 void glmc_vec2_divide(t_vec2 *p_vec2_a, float s, t_vec2 *p_vec2_target);
 float glmc_vec2_norm(t_vec2 *p_vec2);
 void glmc_vec2_print(t_vec2 *p_vec2);
+void glmc_vec2_destroy(t_vec2 *p_vec2);
 
 #endif // VEC2_H

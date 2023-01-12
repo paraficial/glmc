@@ -70,3 +70,7 @@ void glmc_vec2_print(t_vec2 *p_vec2) {
     printf("(%f, %f)\n", p_vec2->x, p_vec2->y);
 }
 
+void glmc_vec2_destroy(t_vec2 *p_vec2) {
+    free(p_vec2->front);
+}
+

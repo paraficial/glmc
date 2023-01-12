@@ -23,6 +23,7 @@ void glmc_ivec2_multiply(t_ivec2 *p_ivec2_a, float s, t_vec2 *p_vec2_target);
 void glmc_ivec2_divide(t_ivec2 *p_ivec2_a, float s, t_vec2 *p_vec2_target);
 float glmc_ivec2_norm(t_ivec2 *p_ivec2);
 void glmc_ivec2_print(t_ivec2 *p_ivec2);
+void glmc_ivec2_destroy(t_ivec2 *p_ivec2);
 
 #endif // IVEC2_H
 

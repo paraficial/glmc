@@ -63,3 +63,7 @@ void glmc_vec3_print(t_vec3 *p_vec3) {
     printf("(%f, %f, %f)\n", p_vec3->x, p_vec3->y, p_vec3->z);
 }
 
+void glmc_vec3_destroy(t_vec3 *p_vec3) {
+    free(p_vec3->front);
+}
+
