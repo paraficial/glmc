@@ -64,6 +64,6 @@ void glmc_vec3_print(t_vec3 *p_vec3) {
 }
 
 void glmc_vec3_destroy(t_vec3 *p_vec3) {
-    free(p_vec3->front);
+    free(p_vec3);
 }
 
